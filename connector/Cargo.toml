@@ -1,0 +1,11 @@
+[package]
+name = "connector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+paho-mqtt = "0.12.5"
+tokio = { version = "1.41.1", features = ["full"] }
+tokio-postgres = "0.7.12"
+tokio-stream = "0.1.16"
